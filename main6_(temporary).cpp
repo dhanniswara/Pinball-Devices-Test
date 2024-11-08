@@ -62,9 +62,9 @@ void resetGame() {
 void loop(){
     if (digitalRead(IR_SENSOR_PIN_1) == HIGH) {
         Serial.println("Test1234");
-        controlServo(1, 512, 500);  
-        delay(1000);                
-        controlServo(1, 0, 500);    
+        controlServo(1, 0, 150);  
+        delay(150);                
+        controlServo(1, 512, 150);    
         score += 10;
     } else {
         Serial.println("Halo1234");
@@ -72,9 +72,9 @@ void loop(){
     
     if (digitalRead(IR_SENSOR_PIN_2) == HIGH) {
         Serial.println("Test4321");
-        controlServo(2, 512, 500);  
-        delay(1000);                
-        controlServo(2, 0, 500);    
+        controlServo(2, 612, 150);  
+        delay(150);                
+        controlServo(2, 0, 150);    
         score += 10;
     } else {
         Serial.println("Halo4321");
@@ -107,5 +107,5 @@ void loop(){
     lcd.setCursor(7, 1);
     lcd.print(score);
 
-    delay(1000);
+    delay(300);
 }
