@@ -1,5 +1,4 @@
-Download and import all of the code extensions
-Run in main.cpp only
+Download and import all of the code extensions and run in main.cpp only
 
 
 ES32 Devkit V1 (1)  
@@ -20,3 +19,6 @@ LCD 16X2 I2C
 Piezoelectric sensor (5) 
 Resistor 10k ohm (3) 
 PCB Board 
+
+![Collboy 1](https://github.com/user-attachments/assets/585db708-d3c6-4b35-ab2d-7b7b13e5a40e)
+![Collboy 3](https://github.com/user-attachments/assets/035f5946-a429-4027-96d5-a66ee8456697)
